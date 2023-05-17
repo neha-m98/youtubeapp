@@ -18,6 +18,23 @@ Check out the live demo of the Video Streaming Application: [Video Streaming App
 
 - **Firebase Integration**: The application integrates with Firebase for secure authentication and real-time updates, ensuring a seamless video streaming experience.
 
+## Program Structure
+
+The program structure is organized as follows:
+
+- `src`: Contains the application source code.
+  - `apis`: Contains API files for interacting with the backend server or external APIs.
+  - `components`: Contains reusable components used throughout the application.
+  - `index.js`: Entry point of the application.
+
+Here's a brief description of each folder:
+
+- `apis`: This folder contains API files responsible for making HTTP requests to the backend server or external APIs. You can find files like `videoAPI.js` or `searchAPI.js` in this folder. These files handle the logic for fetching data from the server or API endpoints.
+
+- `components`: This folder contains reusable components that are used to build the user interface. Examples of components could be `VideoPlayer.js`, `VideoList.js`, or `SearchBar.js`. These components are responsible for rendering specific parts of the UI and handling user interactions.
+
+- `index.js`: This file serves as the entry point of the application. It renders the root component and sets up any necessary configurations or providers.
+
 ## Usage
 
 To use the Video Streaming Application in your project, follow these steps:
@@ -32,25 +49,11 @@ To use the Video Streaming Application in your project, follow these steps:
 
 5. Start the development server by running the following command:
 
-
 6. Open the application in your web browser at `http://localhost:3000`.
 
 7. Explore the video library, search for videos using the search bar, and enjoy streaming your favorite content!
-
-## Folder Structure
-
-The project structure is organized as follows:
-
-- `src`: Contains the application source code.
-- `components`: Contains reusable components used throughout the application.
-- `pages`: Contains the main application pages.
-- `firebase`: Contains Firebase configuration and utility functions.
-- `App.js`: The main application component.
-- `index.js`: Entry point of the application.
 
 ## Contributing
 
 Contributions to this repository are welcome. If you encounter any issues, have suggestions for improvements, or want to contribute new features, please feel free to open an issue or submit a pull request.
 
-
-Enjoy streaming videos with the Video Streaming Application! 🎥🍿
